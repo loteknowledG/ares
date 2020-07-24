@@ -8,7 +8,6 @@ import Head from 'next/head'
 import createLazyProps from 'react-storefront/props/createLazyProps'
 import fetchFromAPI from 'react-storefront/props/fetchFromAPI'
 import { TrackPageView } from 'react-storefront-analytics'
-import WebFont from 'webfontloader';
 
 
 const useStyles = makeStyles(theme => ({
@@ -24,12 +23,6 @@ const useStyles = makeStyles(theme => ({
 export default function Index(lazyProps) {
   const classes = useStyles()
   const [state] = useLazyState(lazyProps)
-
-  WebFont.load({
-    google: {
-      families: ['Space Mono', 'monospace']
-    }
-  });
 
   return (
     <>
