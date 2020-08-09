@@ -80,7 +80,7 @@ export default function Header({ menu }) {
               color="primary"><b>
 &nbsp;____      _________  _________  __________ ___  _____<br/>
 /   /_____/    O    \/__     __\/   /_____/|   |/____/<br/>  
-\___\_____\_________/`%%|___|%%'\___\23407'|___|\____\<br/>
+\___\_____\_________/`13|___|37'\___\23407'|___|\____\<br/>
 &nbsp;`BBBBBBBB'`BBBBBBB'     `B'     `BBBBBBBB'`BBB' `BBB'<br/>
           </b></Typography>
           <Search />
